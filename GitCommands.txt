@@ -46,6 +46,7 @@ git checkout -- filename - This command is used to discard changes in the file p
 git checkout -f - This command takes the working repo to the last commited code. This removes the changes from both working directory and staging area.
 
 git remote - This command is used to check the current remote.
+git remote -v: This command gives full detail about the remote name and url for both pull and push.
 git remote add origin remote_name: This command is used to add a remote for the git repo.
 git push -u origin master -  This command is used to push code from local to remote.
 git config --global alias.st status - This command is used to set an alias for a git command. Like in this example, we set st alias for the status command. 
