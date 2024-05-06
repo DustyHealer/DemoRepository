@@ -69,4 +69,5 @@ git branch --no-merged: Give the branches which are not merged.
 git branch -d branch_name: This command is used to delete branches. Gives error if branch_name is not merged.
 git branch -D branch_name: This command is used to delete branches. Does not Gives error if branch_name is not merged.
 git push origin bugfix: This command is used to push local bugfix branch to remote.
- git push origin bugfix:mybugfix: This command is used to push local bugfix branch to remote with remote branch named as mybugfix.
+git push origin bugfix:mybugfix: This command is used to push local bugfix branch to remote with remote branch named as mybugfix.
+git push -d origin bugfix: This command will delete the bugfix from the remote.
